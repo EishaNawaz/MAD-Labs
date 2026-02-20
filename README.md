@@ -80,17 +80,14 @@ The program:
 
 ### Exercise 14 – Draw Game Board
 Time for some fake graphics! Let’s say we want to draw game boards that look like this:
- --- --- ------
-|   |    |    | 
- --- --- ------  
-|   |    |    | 
- --- --- ------  
-|   |    |    | 
- --- --- ------ 
+
+|   |   |   |
+|---|---|---|
+|   |   |   |
+|   |   |   |
+
 This one is 3x3 (like in tic tac toe).
 Ask the user what size game board they want to draw, and draw it for them to the screen using Dart’s `print()` statement.
-
-
 
 ### Exercise 15 – Computer Guesses Your Number
 User thinks of a number between 0 and 100.  
@@ -103,12 +100,12 @@ Display total guesses taken by the computer.
 ### Exercise 16 – Birthday Dictionary
 For this exercise, we will keep track of when our friend’s birthdays are, and be able to find that information based on their name.
 Create a dictionary (in your file) of names and birthdays. When you run your program it should ask the user to enter a name, and return the birthday of that person back to them. The interaction should look something like this:
->>> Welcome to the birthday dictionary. We know the birthdays of:
+> Welcome to the birthday dictionary. We know the birthdays of:
 Albert Einstein
 Benjamin Franklin
 Ada Lovelace
->>> Who's birthday do you want to look up?
+
+> Who's birthday do you want to look up?
 Benjamin Franklin
->>> Benjamin Franklin's birthday is 01/17/1706
 
-
+> Benjamin Franklin's birthday is 01/17/1706
